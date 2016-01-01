@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-var mdns = require('multicast-dns')()
+var pkg = require('./package.json')
+require('@maboiteaspam/set-verbosity')(pkg.name, process.argv)
+var mdns = require('./index')()
 var path = require('path')
 
 if (process.argv.length < 3) {

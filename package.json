@@ -8,6 +8,8 @@
   },
   "bin": "cli.js",
   "dependencies": {
+    "@maboiteaspam/set-verbosity": "^2.0.3",
+    "debug": "^2.2.0",
     "thunky": "^0.1.0"
   },
   "devDependencies": {

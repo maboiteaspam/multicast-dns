@@ -1,3 +1,7 @@
+
+
+var pkg = require('./package.json')
+require('@maboiteaspam/set-verbosity')(pkg.name, process.argv)
 var local = require('os').hostname() + '.local'
 
 var mdns = require('./')()
